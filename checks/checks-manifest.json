@@ -1,0 +1,287 @@
+{
+  "schema": 2,
+  "checks": [
+    {
+      "name": "EulerCertificatesRoutes",
+      "path": "checks/EulerCertificatesRoutes.lean",
+      "kind": "routes",
+      "expected_output_substrings": [
+        "ROUTE_CHECK\t",
+        "[[some 0, some 1, none]]",
+        "[false, false, false, true]",
+        "(2 / 3, [1])"
+      ],
+      "expected_records": 2,
+      "contract_sha256": "d023d5d78f401a798fb8c68c5cf9cc9d14f9f083a1dbe43a3da280ba6a5deb03"
+    },
+    {
+      "name": "UniformConfidenceRoutes",
+      "path": "checks/UniformConfidenceRoutes.lean",
+      "kind": "routes",
+      "expected_output_substrings": [
+        "ROUTE_CHECK\t"
+      ],
+      "expected_records": 6,
+      "contract_sha256": "d3e71668ed319abb1125629c579100e2da67f32c5c6956a2ea21e97609809133"
+    },
+    {
+      "name": "UniformBasisComparisonRoutes",
+      "path": "checks/UniformBasisComparisonRoutes.lean",
+      "kind": "routes",
+      "expected_output_substrings": [
+        "ROUTE_CHECK\t"
+      ],
+      "expected_records": 5,
+      "contract_sha256": "84b332b53781134eb86c549abca7f8108807e72c925538bcf73f23b3e7c2be96"
+    },
+    {
+      "name": "FiniteDensityReadoutRoutes",
+      "path": "checks/FiniteDensityReadoutRoutes.lean",
+      "kind": "routes",
+      "expected_output_substrings": [
+        "ROUTE_CHECK\t"
+      ],
+      "expected_records": 4,
+      "contract_sha256": "85302fe78dc9aee120775c1443c2ffaba6a935c1d2e7d795a2c201547f32c008"
+    },
+    {
+      "name": "EulerMomentBoundaries",
+      "path": "checks/EulerMomentBoundaries.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "REGRESSION_CHECK\tEulerMomentBoundaries\tPASS"
+      ]
+    },
+    {
+      "name": "TerminalInformationBoundaries",
+      "path": "checks/TerminalInformationBoundaries.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "REGRESSION_CHECK\tTerminalInformationBoundaries\tPASS"
+      ]
+    },
+    {
+      "name": "FinitePrefixBoundaries",
+      "path": "checks/FinitePrefixBoundaries.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "REGRESSION_CHECK\tFinitePrefixBoundaries\tPASS"
+      ]
+    },
+    {
+      "name": "IncidentHolderBoundaries",
+      "path": "checks/IncidentHolderBoundaries.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "REGRESSION_CHECK\tIncidentHolderBoundaries\tPASS"
+      ]
+    },
+    {
+      "name": "GeometricDecayRegression",
+      "path": "checks/GeometricDecayRegression.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "REGRESSION_CHECK\tGeometricDecayRegression\tPASS"
+      ]
+    },
+    {
+      "name": "GlobalProjectorRegression",
+      "path": "checks/GlobalProjectorRegression.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "REGRESSION_CHECK\tGlobalProjectorRegression\tPASS"
+      ]
+    },
+    {
+      "name": "CanonicalCertificateRuntime",
+      "path": "checks/CanonicalCertificateRuntime.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "REGRESSION_CHECK\tCanonicalCertificateRuntime\tPASS",
+        "RUNTIME_CHECK\tcanonical_certificates_0_through_10_pass"
+      ]
+    },
+    {
+      "name": "StagedSearchRuntime",
+      "path": "checks/StagedSearchRuntime.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "REGRESSION_CHECK\tStagedSearchRuntime\tPASS",
+        "RUNTIME_CHECK\tfinite_stage_search_pass"
+      ]
+    },
+    {
+      "name": "AxiomAudit",
+      "path": "checks/AxiomAudit.lean",
+      "kind": "axioms",
+      "expected_output_substrings": [
+        "AXIOM_AUDIT\t"
+      ],
+      "expected_records": 1546,
+      "contract_sha256": "9a2284d61519ecef28f7ddb584363259bb869d03e10f54b1e18be9b7fe83695f"
+    },
+    {
+      "name": "MappingStatements",
+      "path": "checks/MappingStatements.lean",
+      "kind": "mapping",
+      "expected_output_substrings": [
+        "MAPPING_CHECK\t"
+      ],
+      "expected_records": 546,
+      "contract_sha256": "a2572c1affdb3eae82a60595d481ee919f3557d6bf3cb59be6ca246b26b98821"
+    },
+    {
+      "name": "FixedBlockSameEventRegression",
+      "path": "checks/FixedBlockSameEventRegression.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "FIXED_BLOCK_SAME_EVENT_REGRESSION_PASS"
+      ]
+    },
+    {
+      "name": "FixedBlockSameEventConsequences",
+      "path": "checks/FixedBlockSameEventConsequences.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "REGRESSION_CHECK\tFixedBlockSameEventConsequences\tPASS"
+      ]
+    },
+    {
+      "name": "GaussianBridgeReplacement",
+      "path": "checks/GaussianBridgeReplacement.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "REGRESSION_CHECK\tGaussianBridgeReplacement\tPASS",
+        "GAUSSIAN_BRIDGE_AXIOMS_PASS\t6"
+      ]
+    },
+    {
+      "name": "ToleranceHierarchyStatements",
+      "path": "checks/ToleranceHierarchyStatements.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "ToleranceHierarchyStatements_PASS"
+      ]
+    },
+    {
+      "name": "HaarStatements",
+      "path": "checks/HaarStatements.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "HaarStatements_PASS"
+      ]
+    },
+    {
+      "name": "NearCriticalStatements",
+      "path": "checks/NearCriticalStatements.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "NearCriticalStatements_PASS"
+      ]
+    },
+    {
+      "name": "FixedBlockStatements",
+      "path": "checks/FixedBlockStatements.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "FixedBlockStatements_PASS"
+      ]
+    },
+    {
+      "name": "MeasurementModelRegression",
+      "path": "checks/MeasurementModelRegression.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "MeasurementModelRegression_PASS"
+      ]
+    },
+    {
+      "name": "ExecutionRegression",
+      "path": "checks/ExecutionRegression.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "ExecutionRegression_PASS"
+      ]
+    },
+    {
+      "name": "UniverseRegression",
+      "path": "checks/UniverseRegression.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "UniverseRegression_PASS"
+      ]
+    },
+    {
+      "name": "CommonEventRegression",
+      "path": "checks/CommonEventRegression.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "CommonEventRegression_PASS"
+      ]
+    },
+    {
+      "name": "ProjectAxioms",
+      "path": "checks/ProjectAxioms.lean",
+      "kind": "axioms",
+      "expected_output_substrings": [
+        "AXIOM_AUDIT\t"
+      ],
+      "complete_types": true,
+      "expected_records": 3764,
+      "contract_sha256": "3979696c662cb48129ccfb3f49cee1c61df1fa106d30a03dcd12829c62b2a695"
+    },
+    {
+      "name": "PaperMapping",
+      "path": "checks/PaperMapping.lean",
+      "kind": "mapping",
+      "expected_output_substrings": [
+        "MAPPING_CHECK\t"
+      ],
+      "complete_types": true,
+      "expected_records": 65,
+      "contract_sha256": "80cef09bb3e9d5e656188f6666380a1446463b8d5d3223a4b34c6ba8673a8a5e"
+    },
+    {
+      "name": "ProofRoutes",
+      "path": "checks/ProofRoutes.lean",
+      "kind": "routes",
+      "expected_output_substrings": [
+        "ROUTE_CHECK\t"
+      ],
+      "expected_records": 18,
+      "contract_sha256": "e8c26988fb9b6e04473ac33914b3c2656bf606d5f4bea84af3d58778eda569cc"
+    },
+    {
+      "name": "DimensionCriticalValues",
+      "path": "checks/DimensionCriticalValues.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "DimensionCriticalValues_PASS"
+      ]
+    },
+    {
+      "name": "WienerInterpolation",
+      "path": "checks/WienerInterpolation.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "WienerInterpolation_PASS"
+      ]
+    },
+    {
+      "name": "AlternatingBinomial",
+      "path": "checks/AlternatingBinomial.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "REGRESSION_CHECK\tAlternatingBinomial\tPASS"
+      ]
+    },
+    {
+      "name": "PaperNotation",
+      "path": "checks/PaperNotation.lean",
+      "kind": "regression",
+      "expected_output_substrings": [
+        "REGRESSION_CHECK\tPaperNotation\tPASS"
+      ]
+    }
+  ]
+}

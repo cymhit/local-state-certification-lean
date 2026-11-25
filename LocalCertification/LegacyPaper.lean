@@ -1,0 +1,55 @@
+import LocalCertification.Asymptotic.EulerMomentAsymptotics
+import LocalCertification.Extremal.GeometricSeriesDecay
+import LocalCertification.Certificates.StagedSearchConsumers
+import LocalCertification.Comparisons.GlobalProjectorTest
+import LocalCertification.Information.SeedCountingReference
+import LocalCertification.Protocol.UniformConfidenceHierarchy
+import LocalCertification.Protocol.UniformFixedBlockConfidence
+import LocalCertification.Protocol.FixedScoreAchievabilityConsumers
+import LocalCertification.Protocol.CompleteMUBAchievabilityConsumers
+import LocalCertification.Quantum.CompleteReadoutLoewner
+import CertificationGaussian.IncidentHolderContractions
+import CertificationGaussian.FiniteWickInclusionExclusionBounds
+
+/-!
+Product-basis interfaces used by the basis-protocol checks.
+The general product-POVM results are in `LocalCertification.Paper`.
+-/
+
+namespace LocalCertification.LegacyPaper
+
+alias theorem_1 := LocalCertification.Protocol.qudit_same_event_continuous_confidence_hierarchy
+alias theorem_2 := LocalCertification.Asymptotic.EulerMoments.sharp_order_and_inversion
+alias S7_bound := LocalCertification.Extremal.GeometricSeries.gamma_binomial_bound
+alias S7_decay := LocalCertification.Extremal.GeometricSeries.gamma_tendsto_zero_of_two_lt
+alias S8_Haar := LocalCertification.Quantum.completeHaarReadout_scorebounds
+alias S8_Pauli := LocalCertification.Quantum.completePauliReadout_scorebounds
+alias S8_Haar_protocol := LocalCertification.Protocol.fixedScore_haar_canonical
+alias S8_Pauli_protocol := LocalCertification.Protocol.fixedScore_pauli_canonical
+alias S11_Haar := CertificationGaussian.haar_local_graph_contraction_via_incident_holder
+alias S11_Pauli := CertificationGaussian.pauli_local_graph_contraction_via_incident_holder
+alias S11_MUB := CertificationGaussian.completeMUB_local_graph_contraction_via_incident_holder
+alias S12_Wick := CertificationGaussian.complexGaussian_four_normal_blocks_finite_inclusion_exclusion
+alias S12_Wick_bound := CertificationGaussian.complexGaussian_four_normal_blocks_finite_norm_le
+alias S12_Haar := CertificationGaussian.cardinalityHaar_remainder_bound
+alias S12_Pauli := CertificationGaussian.cardinalityPauli_remainder_bound
+alias S15 := LocalCertification.Protocol.fixedScore_completeMUB_canonical
+alias S15_budgets := LocalCertification.Protocol.completeMUB_corollary_three_six
+alias S17_sphere := LocalCertification.Quantum.qudit_uniform_product_basis_score_bound
+alias S17_Haar := LocalCertification.Quantum.qudit_haar_product_basis_score_bound
+alias S18 := LocalCertification.Quantum.calibratedHaar_hard_states
+alias S19_finite := LocalCertification.Protocol.terminal_binary_information_finite_via_product_density
+alias S19 := LocalCertification.Protocol.terminal_binary_information_via_product_density
+alias S20_raw := LocalCertification.Protocol.qudit_exponential_testing_hierarchy_via_product_density
+alias S21 := LocalCertification.Protocol.qudit_same_event_continuous_confidence_hierarchy
+alias S22 := LocalCertification.Protocol.fixedBlock_same_event_continuous_confidence_hierarchy
+alias S22_criterion := LocalCertification.Protocol.fixedBlock_same_event_continuous_confidence_criterion
+alias S24 := LocalCertification.Asymptotic.EulerMoments.gamma_blaschke_lower
+alias S24_coefficient := LocalCertification.Asymptotic.EulerMoments.gamma_blaschke_coefficient_lower
+alias S29 := LocalCertification.Certificates.CanonicalCandidate.optimality
+alias S30 := LocalCertification.Certificates.canonical_certificate_exists
+alias S31_termination := LocalCertification.Certificates.stagedSearch_terminates
+alias S31_correct := LocalCertification.Certificates.stagedOutput_correct
+alias global_comparison := LocalCertification.Comparisons.global_projector_comparison
+
+end LocalCertification.LegacyPaper

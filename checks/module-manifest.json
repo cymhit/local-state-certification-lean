@@ -1,0 +1,3249 @@
+{
+  "schema": 2,
+  "expected_count": 648,
+  "quick_modules": [
+    "LocalCertification.Paper"
+  ],
+  "modules": [
+    {
+      "module": "CertificationGaussian.BellPartialTranspose",
+      "path": "support/gaussian/CertificationGaussian/BellPartialTranspose.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.BellTensorIdentity",
+      "path": "support/gaussian/CertificationGaussian/BellTensorIdentity.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.CanonicalComplexFrameNet",
+      "path": "support/gaussian/CertificationGaussian/CanonicalComplexFrameNet.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.CanonicalProductFrameWitness",
+      "path": "support/gaussian/CertificationGaussian/CanonicalProductFrameWitness.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.CardinalityComplementRemainder",
+      "path": "support/gaussian/CertificationGaussian/CardinalityComplementRemainder.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.CardinalityProjectorKernel",
+      "path": "support/gaussian/CertificationGaussian/CardinalityProjectorKernel.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.CardinalityReadoutMoments",
+      "path": "support/gaussian/CertificationGaussian/CardinalityReadoutMoments.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ChangedSiteContraction",
+      "path": "support/gaussian/CertificationGaussian/ChangedSiteContraction.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.CombinedWickPermutation",
+      "path": "support/gaussian/CertificationGaussian/CombinedWickPermutation.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.CompleteMUBFullControl",
+      "path": "support/gaussian/CertificationGaussian/CompleteMUBFullControl.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.CompleteMUBFullSecond",
+      "path": "support/gaussian/CertificationGaussian/CompleteMUBFullSecond.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.CompleteMUBGraphIntegrals",
+      "path": "support/gaussian/CertificationGaussian/CompleteMUBGraphIntegrals.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.CompleteMUBGraphKappa",
+      "path": "support/gaussian/CertificationGaussian/CompleteMUBGraphKappa.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.CompleteMUBReadoutControl",
+      "path": "support/gaussian/CertificationGaussian/CompleteMUBReadoutControl.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.CompleteMUBRecords",
+      "path": "support/gaussian/CertificationGaussian/CompleteMUBRecords.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.CompleteMUBRemainder",
+      "path": "support/gaussian/CertificationGaussian/CompleteMUBRemainder.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.CompleteMUBSpectrum",
+      "path": "support/gaussian/CertificationGaussian/CompleteMUBSpectrum.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.CompleteMUBStrictLoss",
+      "path": "support/gaussian/CertificationGaussian/CompleteMUBStrictLoss.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.CompleteMUBTwirl",
+      "path": "support/gaussian/CertificationGaussian/CompleteMUBTwirl.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ComplexGaussianBlockWick",
+      "path": "support/gaussian/CertificationGaussian/ComplexGaussianBlockWick.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ComplexGaussianChaos",
+      "path": "support/gaussian/CertificationGaussian/ComplexGaussianChaos.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ComplexGaussianDecoupling",
+      "path": "support/gaussian/CertificationGaussian/ComplexGaussianDecoupling.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ComplexGaussianFourBlockWick",
+      "path": "support/gaussian/CertificationGaussian/ComplexGaussianFourBlockWick.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ComplexGaussianMatrixWick",
+      "path": "support/gaussian/CertificationGaussian/ComplexGaussianMatrixWick.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ComplexGaussianNormalMatrix",
+      "path": "support/gaussian/CertificationGaussian/ComplexGaussianNormalMatrix.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ComplexGaussianNormalOrder",
+      "path": "support/gaussian/CertificationGaussian/ComplexGaussianNormalOrder.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ComplexGaussianQuadraticCovariance",
+      "path": "support/gaussian/CertificationGaussian/ComplexGaussianQuadraticCovariance.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ComplexGaussianQuadraticFrame",
+      "path": "support/gaussian/CertificationGaussian/ComplexGaussianQuadraticFrame.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ComplexGaussianRotation",
+      "path": "support/gaussian/CertificationGaussian/ComplexGaussianRotation.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ComplexGaussianWick",
+      "path": "support/gaussian/CertificationGaussian/ComplexGaussianWick.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ComplexGaussianWirtinger",
+      "path": "support/gaussian/CertificationGaussian/ComplexGaussianWirtinger.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ComplexMeasurableFrame",
+      "path": "support/gaussian/CertificationGaussian/ComplexMeasurableFrame.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ComplexTensorFrame",
+      "path": "support/gaussian/CertificationGaussian/ComplexTensorFrame.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.BellPartialTranspose",
+      "path": "support/gaussian/CertificationGaussian/Consumers/BellPartialTranspose.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.ChangedSiteContraction",
+      "path": "support/gaussian/CertificationGaussian/Consumers/ChangedSiteContraction.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.CompleteMUB",
+      "path": "support/gaussian/CertificationGaussian/Consumers/CompleteMUB.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.CompleteMUBFullControl",
+      "path": "support/gaussian/CertificationGaussian/Consumers/CompleteMUBFullControl.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.ComplexGaussianChaos",
+      "path": "support/gaussian/CertificationGaussian/Consumers/ComplexGaussianChaos.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.ComplexGaussianNormalWick",
+      "path": "support/gaussian/CertificationGaussian/Consumers/ComplexGaussianNormalWick.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.ComplexGaussianWick",
+      "path": "support/gaussian/CertificationGaussian/Consumers/ComplexGaussianWick.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.CubicTail",
+      "path": "support/gaussian/CertificationGaussian/Consumers/CubicTail.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.FiniteComplementContraction",
+      "path": "support/gaussian/CertificationGaussian/Consumers/FiniteComplementContraction.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.FiniteComplementRemainder",
+      "path": "support/gaussian/CertificationGaussian/Consumers/FiniteComplementRemainder.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.GaussianChaos",
+      "path": "support/gaussian/CertificationGaussian/Consumers/GaussianChaos.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.GaussianIBP",
+      "path": "support/gaussian/CertificationGaussian/Consumers/GaussianIBP.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.GaussianMatrixMoments",
+      "path": "support/gaussian/CertificationGaussian/Consumers/GaussianMatrixMoments.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.GramPolarCorrection",
+      "path": "support/gaussian/CertificationGaussian/Consumers/GramPolarCorrection.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.HaarChangedSiteTensor",
+      "path": "support/gaussian/CertificationGaussian/Consumers/HaarChangedSiteTensor.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.HaarGraphKappa",
+      "path": "support/gaussian/CertificationGaussian/Consumers/HaarGraphKappa.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.HaarMoments",
+      "path": "support/gaussian/CertificationGaussian/Consumers/HaarMoments.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.HaarSphere",
+      "path": "support/gaussian/CertificationGaussian/Consumers/HaarSphere.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.HaarSpherePacking",
+      "path": "support/gaussian/CertificationGaussian/Consumers/HaarSpherePacking.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.Kernel",
+      "path": "support/gaussian/CertificationGaussian/Consumers/Kernel.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.LocalHaarTwirl",
+      "path": "support/gaussian/CertificationGaussian/Consumers/LocalHaarTwirl.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.Membership",
+      "path": "support/gaussian/CertificationGaussian/Consumers/Membership.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.Model",
+      "path": "support/gaussian/CertificationGaussian/Consumers/Model.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.Moments",
+      "path": "support/gaussian/CertificationGaussian/Consumers/Moments.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.NetProbability",
+      "path": "support/gaussian/CertificationGaussian/Consumers/NetProbability.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.PackingNetProbability",
+      "path": "support/gaussian/CertificationGaussian/Consumers/PackingNetProbability.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.PauliLocalReadout",
+      "path": "support/gaussian/CertificationGaussian/Consumers/PauliLocalReadout.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.RadialBellChoi",
+      "path": "support/gaussian/CertificationGaussian/Consumers/RadialBellChoi.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.RadialChoi",
+      "path": "support/gaussian/CertificationGaussian/Consumers/RadialChoi.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.RadialHighGaussian",
+      "path": "support/gaussian/CertificationGaussian/Consumers/RadialHighGaussian.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.RadialHighSphere",
+      "path": "support/gaussian/CertificationGaussian/Consumers/RadialHighSphere.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.RadialHighWeights",
+      "path": "support/gaussian/CertificationGaussian/Consumers/RadialHighWeights.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.RadialLinearHigh",
+      "path": "support/gaussian/CertificationGaussian/Consumers/RadialLinearHigh.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.RadialLowLabels",
+      "path": "support/gaussian/CertificationGaussian/Consumers/RadialLowLabels.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.RadialOrder",
+      "path": "support/gaussian/CertificationGaussian/Consumers/RadialOrder.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.RadialReadoutPolar",
+      "path": "support/gaussian/CertificationGaussian/Consumers/RadialReadoutPolar.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.ReadoutFullControl",
+      "path": "support/gaussian/CertificationGaussian/Consumers/ReadoutFullControl.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.ReadoutGoodEvents",
+      "path": "support/gaussian/CertificationGaussian/Consumers/ReadoutGoodEvents.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.ReadoutLinearFullControl",
+      "path": "support/gaussian/CertificationGaussian/Consumers/ReadoutLinearFullControl.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.ReadoutMomentIdentities",
+      "path": "support/gaussian/CertificationGaussian/Consumers/ReadoutMomentIdentities.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.ReadoutRadialSpectrum",
+      "path": "support/gaussian/CertificationGaussian/Consumers/ReadoutRadialSpectrum.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.ReadoutRemainderAsymptotics",
+      "path": "support/gaussian/CertificationGaussian/Consumers/ReadoutRemainderAsymptotics.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.ReadoutRemainderTail",
+      "path": "support/gaussian/CertificationGaussian/Consumers/ReadoutRemainderTail.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.RectangularGaussian",
+      "path": "support/gaussian/CertificationGaussian/Consumers/RectangularGaussian.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.Sphere",
+      "path": "support/gaussian/CertificationGaussian/Consumers/Sphere.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.UnchangedSiteContraction",
+      "path": "support/gaussian/CertificationGaussian/Consumers/UnchangedSiteContraction.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.UniformSphere",
+      "path": "support/gaussian/CertificationGaussian/Consumers/UniformSphere.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.UniformSpherePacking",
+      "path": "support/gaussian/CertificationGaussian/Consumers/UniformSpherePacking.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.UnitaryGaussianChaos",
+      "path": "support/gaussian/CertificationGaussian/Consumers/UnitaryGaussianChaos.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.UnitaryNet",
+      "path": "support/gaussian/CertificationGaussian/Consumers/UnitaryNet.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.UnitaryOrbitGram",
+      "path": "support/gaussian/CertificationGaussian/Consumers/UnitaryOrbitGram.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Consumers.Variance",
+      "path": "support/gaussian/CertificationGaussian/Consumers/Variance.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Coordinates",
+      "path": "support/gaussian/CertificationGaussian/Coordinates.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.FiniteComplementContraction",
+      "path": "support/gaussian/CertificationGaussian/FiniteComplementContraction.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.FiniteComplementExpansion",
+      "path": "support/gaussian/CertificationGaussian/FiniteComplementExpansion.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.FiniteComplementRemainder",
+      "path": "support/gaussian/CertificationGaussian/FiniteComplementRemainder.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.FiniteRankOneFrame",
+      "path": "support/gaussian/CertificationGaussian/FiniteRankOneFrame.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.FiniteWickInclusionExclusion",
+      "path": "support/gaussian/CertificationGaussian/FiniteWickInclusionExclusion.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.FiniteWickInclusionExclusionAssembly",
+      "path": "support/gaussian/CertificationGaussian/FiniteWickInclusionExclusionAssembly.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.FiniteWickInclusionExclusionBounds",
+      "path": "support/gaussian/CertificationGaussian/FiniteWickInclusionExclusionBounds.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.FiniteWickInclusionExclusionCompletion",
+      "path": "support/gaussian/CertificationGaussian/FiniteWickInclusionExclusionCompletion.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.FiniteWickInclusionExclusionExpansion",
+      "path": "support/gaussian/CertificationGaussian/FiniteWickInclusionExclusionExpansion.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.FiniteWickInclusionExclusionFiber",
+      "path": "support/gaussian/CertificationGaussian/FiniteWickInclusionExclusionFiber.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.FiniteWickInclusionExclusionFourBlock",
+      "path": "support/gaussian/CertificationGaussian/FiniteWickInclusionExclusionFourBlock.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.FourRecordTensorAverage",
+      "path": "support/gaussian/CertificationGaussian/FourRecordTensorAverage.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.FourVertexOverlap",
+      "path": "support/gaussian/CertificationGaussian/FourVertexOverlap.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.GaussianBlocks",
+      "path": "support/gaussian/CertificationGaussian/GaussianBlocks.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.GaussianChaosExpectation",
+      "path": "support/gaussian/CertificationGaussian/GaussianChaosExpectation.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.GaussianChaosFlattenings",
+      "path": "support/gaussian/CertificationGaussian/GaussianChaosFlattenings.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.GaussianDensity",
+      "path": "support/gaussian/CertificationGaussian/GaussianDensity.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.GaussianMatrixExpectation",
+      "path": "support/gaussian/CertificationGaussian/GaussianMatrixExpectation.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.GaussianMatrixOperatorMoments",
+      "path": "support/gaussian/CertificationGaussian/GaussianMatrixOperatorMoments.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.GaussianMatrixPolynomial",
+      "path": "support/gaussian/CertificationGaussian/GaussianMatrixPolynomial.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.GaussianMatrixTraceDerivative",
+      "path": "support/gaussian/CertificationGaussian/GaussianMatrixTraceDerivative.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.GaussianMatrixTraceMoments",
+      "path": "support/gaussian/CertificationGaussian/GaussianMatrixTraceMoments.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.GaussianPolynomialIBP",
+      "path": "support/gaussian/CertificationGaussian/GaussianPolynomialIBP.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.GaussianRadialSixth",
+      "path": "support/gaussian/CertificationGaussian/GaussianRadialSixth.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.GaussianRecordFubini",
+      "path": "support/gaussian/CertificationGaussian/GaussianRecordFubini.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.GaussianRotation",
+      "path": "support/gaussian/CertificationGaussian/GaussianRotation.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.GaussianTail",
+      "path": "support/gaussian/CertificationGaussian/GaussianTail.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.GaussianVariance",
+      "path": "support/gaussian/CertificationGaussian/GaussianVariance.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.GaussianWick4",
+      "path": "support/gaussian/CertificationGaussian/GaussianWick4.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.GramPolarCorrection",
+      "path": "support/gaussian/CertificationGaussian/GramPolarCorrection.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.HaarBasisRecords",
+      "path": "support/gaussian/CertificationGaussian/HaarBasisRecords.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.HaarChangedSiteTensor",
+      "path": "support/gaussian/CertificationGaussian/HaarChangedSiteTensor.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.HaarCoordinateBeta",
+      "path": "support/gaussian/CertificationGaussian/HaarCoordinateBeta.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.HaarGraphKappa",
+      "path": "support/gaussian/CertificationGaussian/HaarGraphKappa.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.HaarOrbit",
+      "path": "support/gaussian/CertificationGaussian/HaarOrbit.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.HaarOverlapSixth",
+      "path": "support/gaussian/CertificationGaussian/HaarOverlapSixth.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.HaarSymmetricTwirl",
+      "path": "support/gaussian/CertificationGaussian/HaarSymmetricTwirl.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.HammingKernel",
+      "path": "support/gaussian/CertificationGaussian/HammingKernel.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.HermiteIntegral",
+      "path": "support/gaussian/CertificationGaussian/HermiteIntegral.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.HermitianTraceBound",
+      "path": "support/gaussian/CertificationGaussian/HermitianTraceBound.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.HermitianTraceSandwich",
+      "path": "support/gaussian/CertificationGaussian/HermitianTraceSandwich.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.HilbertCoordinateLift",
+      "path": "support/gaussian/CertificationGaussian/HilbertCoordinateLift.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.HilbertFrameTransform",
+      "path": "support/gaussian/CertificationGaussian/HilbertFrameTransform.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.IncidentHolderContractions",
+      "path": "support/gaussian/CertificationGaussian/IncidentHolderContractions.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.IncidentOverlapHolder",
+      "path": "support/gaussian/CertificationGaussian/IncidentOverlapHolder.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.IndependentQuadratic",
+      "path": "support/gaussian/CertificationGaussian/IndependentQuadratic.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.KernelAsymptotics",
+      "path": "support/gaussian/CertificationGaussian/KernelAsymptotics.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.KernelCoveringAsymptotics",
+      "path": "support/gaussian/CertificationGaussian/KernelCoveringAsymptotics.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.KernelOperator",
+      "path": "support/gaussian/CertificationGaussian/KernelOperator.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.KernelTrace",
+      "path": "support/gaussian/CertificationGaussian/KernelTrace.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.LocalComplementHilbert",
+      "path": "support/gaussian/CertificationGaussian/LocalComplementHilbert.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.LocalHaarTwirl",
+      "path": "support/gaussian/CertificationGaussian/LocalHaarTwirl.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.MatrixHermitianDilation",
+      "path": "support/gaussian/CertificationGaussian/MatrixHermitianDilation.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.MatrixKroneckerNorm",
+      "path": "support/gaussian/CertificationGaussian/MatrixKroneckerNorm.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.MeasurableFrameAsymptotics",
+      "path": "support/gaussian/CertificationGaussian/MeasurableFrameAsymptotics.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.MeasurableFrameContinuity",
+      "path": "support/gaussian/CertificationGaussian/MeasurableFrameContinuity.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.MeasurableFramePolynomial",
+      "path": "support/gaussian/CertificationGaussian/MeasurableFramePolynomial.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.MeasurableFrameRadial",
+      "path": "support/gaussian/CertificationGaussian/MeasurableFrameRadial.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.MeasurableFrameSphereTransfer",
+      "path": "support/gaussian/CertificationGaussian/MeasurableFrameSphereTransfer.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.MeasurableFrameTail",
+      "path": "support/gaussian/CertificationGaussian/MeasurableFrameTail.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.MeasurableGaussianFrameBound",
+      "path": "support/gaussian/CertificationGaussian/MeasurableGaussianFrameBound.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.MeasurableGaussianQuadraticVariance",
+      "path": "support/gaussian/CertificationGaussian/MeasurableGaussianQuadraticVariance.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.MeasurableQuadraticFrame",
+      "path": "support/gaussian/CertificationGaussian/MeasurableQuadraticFrame.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Model",
+      "path": "support/gaussian/CertificationGaussian/Model.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Moments",
+      "path": "support/gaussian/CertificationGaussian/Moments.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.NetAsymptotics",
+      "path": "support/gaussian/CertificationGaussian/NetAsymptotics.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.OrbitLowHighDecomposition",
+      "path": "support/gaussian/CertificationGaussian/OrbitLowHighDecomposition.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.OverlapBetaMoments",
+      "path": "support/gaussian/CertificationGaussian/OverlapBetaMoments.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.PackingNetAsymptotics",
+      "path": "support/gaussian/CertificationGaussian/PackingNetAsymptotics.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.PauliBasisRecords",
+      "path": "support/gaussian/CertificationGaussian/PauliBasisRecords.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.PauliChangedSiteTensor",
+      "path": "support/gaussian/CertificationGaussian/PauliChangedSiteTensor.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.PauliGraphIntegrals",
+      "path": "support/gaussian/CertificationGaussian/PauliGraphIntegrals.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.PauliGraphKappa",
+      "path": "support/gaussian/CertificationGaussian/PauliGraphKappa.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.PauliTwirl",
+      "path": "support/gaussian/CertificationGaussian/PauliTwirl.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.PhysicalProductFrame",
+      "path": "support/gaussian/CertificationGaussian/PhysicalProductFrame.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.PolynomialMembership",
+      "path": "support/gaussian/CertificationGaussian/PolynomialMembership.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.PositiveTensorTrace",
+      "path": "support/gaussian/CertificationGaussian/PositiveTensorTrace.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ProductFrameCommonEvent",
+      "path": "support/gaussian/CertificationGaussian/ProductFrameCommonEvent.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ProductFrameGaussianBridge",
+      "path": "support/gaussian/CertificationGaussian/ProductFrameGaussianBridge.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ProductFrameNet",
+      "path": "support/gaussian/CertificationGaussian/ProductFrameNet.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ProductRankOneGaussianFrame",
+      "path": "support/gaussian/CertificationGaussian/ProductRankOneGaussianFrame.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ProductReadoutContraction",
+      "path": "support/gaussian/CertificationGaussian/ProductReadoutContraction.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ProjectorComplementKernel",
+      "path": "support/gaussian/CertificationGaussian/ProjectorComplementKernel.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ProjectorComplementMoments",
+      "path": "support/gaussian/CertificationGaussian/ProjectorComplementMoments.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ProjectorSubsetOperator",
+      "path": "support/gaussian/CertificationGaussian/ProjectorSubsetOperator.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.QuarticRadiusSphereTransfer",
+      "path": "support/gaussian/CertificationGaussian/QuarticRadiusSphereTransfer.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.Radial",
+      "path": "support/gaussian/CertificationGaussian/Radial.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialBellChoi",
+      "path": "support/gaussian/CertificationGaussian/RadialBellChoi.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialBellWeights",
+      "path": "support/gaussian/CertificationGaussian/RadialBellWeights.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialBinomialEntropy",
+      "path": "support/gaussian/CertificationGaussian/RadialBinomialEntropy.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialChoiLocal",
+      "path": "support/gaussian/CertificationGaussian/RadialChoiLocal.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialChoiTensor",
+      "path": "support/gaussian/CertificationGaussian/RadialChoiTensor.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialCoefficientBounds",
+      "path": "support/gaussian/CertificationGaussian/RadialCoefficientBounds.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialCoefficientMass",
+      "path": "support/gaussian/CertificationGaussian/RadialCoefficientMass.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialHighChoi",
+      "path": "support/gaussian/CertificationGaussian/RadialHighChoi.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialHighGaussian",
+      "path": "support/gaussian/CertificationGaussian/RadialHighGaussian.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialHighSphere",
+      "path": "support/gaussian/CertificationGaussian/RadialHighSphere.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialHighTail",
+      "path": "support/gaussian/CertificationGaussian/RadialHighTail.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialHighWeights",
+      "path": "support/gaussian/CertificationGaussian/RadialHighWeights.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialLinearCardinality",
+      "path": "support/gaussian/CertificationGaussian/RadialLinearCardinality.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialLinearEntropy",
+      "path": "support/gaussian/CertificationGaussian/RadialLinearEntropy.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialLinearHighChoi",
+      "path": "support/gaussian/CertificationGaussian/RadialLinearHighChoi.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialLinearHighGaussian",
+      "path": "support/gaussian/CertificationGaussian/RadialLinearHighGaussian.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialLinearHighSphere",
+      "path": "support/gaussian/CertificationGaussian/RadialLinearHighSphere.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialLinearHighTail",
+      "path": "support/gaussian/CertificationGaussian/RadialLinearHighTail.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialLinearHighWeights",
+      "path": "support/gaussian/CertificationGaussian/RadialLinearHighWeights.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialLinearLowOrbit",
+      "path": "support/gaussian/CertificationGaussian/RadialLinearLowOrbit.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialLinearPolarApproximation",
+      "path": "support/gaussian/CertificationGaussian/RadialLinearPolarApproximation.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialLinearReadoutPolar",
+      "path": "support/gaussian/CertificationGaussian/RadialLinearReadoutPolar.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialLowAsymptotics",
+      "path": "support/gaussian/CertificationGaussian/RadialLowAsymptotics.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialLowCardinality",
+      "path": "support/gaussian/CertificationGaussian/RadialLowCardinality.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialLowOrbit",
+      "path": "support/gaussian/CertificationGaussian/RadialLowOrbit.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialPolarApproximation",
+      "path": "support/gaussian/CertificationGaussian/RadialPolarApproximation.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialProjection",
+      "path": "support/gaussian/CertificationGaussian/RadialProjection.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RadialReadoutPolar",
+      "path": "support/gaussian/CertificationGaussian/RadialReadoutPolar.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RankOneWickContraction",
+      "path": "support/gaussian/CertificationGaussian/RankOneWickContraction.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutChoiAction",
+      "path": "support/gaussian/CertificationGaussian/ReadoutChoiAction.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutChoiLocal",
+      "path": "support/gaussian/CertificationGaussian/ReadoutChoiLocal.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutChoiTensor",
+      "path": "support/gaussian/CertificationGaussian/ReadoutChoiTensor.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutFullControl",
+      "path": "support/gaussian/CertificationGaussian/ReadoutFullControl.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutFullSecondControl",
+      "path": "support/gaussian/CertificationGaussian/ReadoutFullSecondControl.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutFullSecondTail",
+      "path": "support/gaussian/CertificationGaussian/ReadoutFullSecondTail.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutGoodEvents",
+      "path": "support/gaussian/CertificationGaussian/ReadoutGoodEvents.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutKernelAlgebra",
+      "path": "support/gaussian/CertificationGaussian/ReadoutKernelAlgebra.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutLinearFullControl",
+      "path": "support/gaussian/CertificationGaussian/ReadoutLinearFullControl.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutLinearFullSecondControl",
+      "path": "support/gaussian/CertificationGaussian/ReadoutLinearFullSecondControl.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutLinearFullSecondTail",
+      "path": "support/gaussian/CertificationGaussian/ReadoutLinearFullSecondTail.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutMomentContinuity",
+      "path": "support/gaussian/CertificationGaussian/ReadoutMomentContinuity.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutMomentError",
+      "path": "support/gaussian/CertificationGaussian/ReadoutMomentError.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutMomentOperators",
+      "path": "support/gaussian/CertificationGaussian/ReadoutMomentOperators.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutNormalization",
+      "path": "support/gaussian/CertificationGaussian/ReadoutNormalization.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutPolarNorm",
+      "path": "support/gaussian/CertificationGaussian/ReadoutPolarNorm.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutRadialControl",
+      "path": "support/gaussian/CertificationGaussian/ReadoutRadialControl.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutRadialSpectrum",
+      "path": "support/gaussian/CertificationGaussian/ReadoutRadialSpectrum.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutRemainderAsymptotics",
+      "path": "support/gaussian/CertificationGaussian/ReadoutRemainderAsymptotics.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutRemainderFourthMoment",
+      "path": "support/gaussian/CertificationGaussian/ReadoutRemainderFourthMoment.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutRemainderModel",
+      "path": "support/gaussian/CertificationGaussian/ReadoutRemainderModel.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutRemainderPolynomial",
+      "path": "support/gaussian/CertificationGaussian/ReadoutRemainderPolynomial.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ReadoutRemainderTail",
+      "path": "support/gaussian/CertificationGaussian/ReadoutRemainderTail.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.RectangularGaussianExpectation",
+      "path": "support/gaussian/CertificationGaussian/RectangularGaussianExpectation.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.ScalarMoments",
+      "path": "support/gaussian/CertificationGaussian/ScalarMoments.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.SphereComplexMoments",
+      "path": "support/gaussian/CertificationGaussian/SphereComplexMoments.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.SphereCoordinatePowers",
+      "path": "support/gaussian/CertificationGaussian/SphereCoordinatePowers.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.SphereHomogeneous",
+      "path": "support/gaussian/CertificationGaussian/SphereHomogeneous.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.SpherePolar",
+      "path": "support/gaussian/CertificationGaussian/SpherePolar.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.SphereQuadraticMoments",
+      "path": "support/gaussian/CertificationGaussian/SphereQuadraticMoments.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.SphereRealMoments",
+      "path": "support/gaussian/CertificationGaussian/SphereRealMoments.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.SphereScore",
+      "path": "support/gaussian/CertificationGaussian/SphereScore.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.SphereScoreL1",
+      "path": "support/gaussian/CertificationGaussian/SphereScoreL1.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.SphereTransfer",
+      "path": "support/gaussian/CertificationGaussian/SphereTransfer.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.SphereTransport",
+      "path": "support/gaussian/CertificationGaussian/SphereTransport.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.StandardGaussian",
+      "path": "support/gaussian/CertificationGaussian/StandardGaussian.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.TailAsymptotics",
+      "path": "support/gaussian/CertificationGaussian/TailAsymptotics.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.TensorOperatorNorm",
+      "path": "support/gaussian/CertificationGaussian/TensorOperatorNorm.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.TensorReadoutFactorization",
+      "path": "support/gaussian/CertificationGaussian/TensorReadoutFactorization.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.TensorUnitaryNet",
+      "path": "support/gaussian/CertificationGaussian/TensorUnitaryNet.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.TensorUnitaryPackingNet",
+      "path": "support/gaussian/CertificationGaussian/TensorUnitaryPackingNet.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.UnchangedSiteContraction",
+      "path": "support/gaussian/CertificationGaussian/UnchangedSiteContraction.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.UnitaryBellFlattenings",
+      "path": "support/gaussian/CertificationGaussian/UnitaryBellFlattenings.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.UnitaryChaosCoefficients",
+      "path": "support/gaussian/CertificationGaussian/UnitaryChaosCoefficients.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.UnitaryFrobeniusPacking",
+      "path": "support/gaussian/CertificationGaussian/UnitaryFrobeniusPacking.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.UnitaryGaussianChaos",
+      "path": "support/gaussian/CertificationGaussian/UnitaryGaussianChaos.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.UnitaryNet",
+      "path": "support/gaussian/CertificationGaussian/UnitaryNet.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.UnitaryOrbitGram",
+      "path": "support/gaussian/CertificationGaussian/UnitaryOrbitGram.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.UnitarySphereConjugation",
+      "path": "support/gaussian/CertificationGaussian/UnitarySphereConjugation.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.WickAlgebra",
+      "path": "support/gaussian/CertificationGaussian/WickAlgebra.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.WickFourVertexGraph",
+      "path": "support/gaussian/CertificationGaussian/WickFourVertexGraph.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "CertificationGaussian.WickOrthogonality",
+      "path": "support/gaussian/CertificationGaussian/WickOrthogonality.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "GaussianHilbert.HermitePolynomials",
+      "path": "support/gaussian/GaussianHilbert/HermitePolynomials.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "GaussianHilbert.HypercontractivityFromBE",
+      "path": "support/gaussian/GaussianHilbert/HypercontractivityFromBE.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "GaussianHilbert.OUEigenfunctions",
+      "path": "support/gaussian/GaussianHilbert/OUEigenfunctions.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "GaussianHilbert.PolynomialChaosConcentration",
+      "path": "support/gaussian/GaussianHilbert/PolynomialChaosConcentration.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "GaussianHilbert.PolynomialDensity",
+      "path": "support/gaussian/GaussianHilbert/PolynomialDensity.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "GaussianHilbert.WienerChaos",
+      "path": "support/gaussian/GaussianHilbert/WienerChaos.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "LocalCertification",
+      "path": "LocalCertification.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.BlaschkeBoundary",
+      "path": "LocalCertification/Asymptotic/BlaschkeBoundary.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.BlaschkeCauchyBound",
+      "path": "LocalCertification/Asymptotic/BlaschkeCauchyBound.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.BlaschkeCoefficients",
+      "path": "LocalCertification/Asymptotic/BlaschkeCoefficients.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.BlaschkeEuler",
+      "path": "LocalCertification/Asymptotic/BlaschkeEuler.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.BlaschkeTermwiseDerivatives",
+      "path": "LocalCertification/Asymptotic/BlaschkeTermwiseDerivatives.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.BlaschkeUniformSeries",
+      "path": "LocalCertification/Asymptotic/BlaschkeUniformSeries.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.BoundaryAmplitude",
+      "path": "LocalCertification/Asymptotic/BoundaryAmplitude.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.CoefficientL1",
+      "path": "LocalCertification/Asymptotic/CoefficientL1.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.CoefficientUpper",
+      "path": "LocalCertification/Asymptotic/CoefficientUpper.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.CriticalDegree",
+      "path": "LocalCertification/Asymptotic/CriticalDegree.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.EulerMomentAsymptotics",
+      "path": "LocalCertification/Asymptotic/EulerMomentAsymptotics.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.EulerMomentDual",
+      "path": "LocalCertification/Asymptotic/EulerMomentDual.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.EulerMoments",
+      "path": "LocalCertification/Asymptotic/EulerMoments.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.InfiniteDual",
+      "path": "LocalCertification/Asymptotic/InfiniteDual.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.InversionBounds",
+      "path": "LocalCertification/Asymptotic/InversionBounds.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.LogarithmicInversion",
+      "path": "LocalCertification/Asymptotic/LogarithmicInversion.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.OscillatoryCandidate",
+      "path": "LocalCertification/Asymptotic/OscillatoryCandidate.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.OscillatoryIntegral",
+      "path": "LocalCertification/Asymptotic/OscillatoryIntegral.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.OscillatoryRegularization",
+      "path": "LocalCertification/Asymptotic/OscillatoryRegularization.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.OscillatoryVariation",
+      "path": "LocalCertification/Asymptotic/OscillatoryVariation.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.PhaseComplex",
+      "path": "LocalCertification/Asymptotic/PhaseComplex.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.PhaseScalar",
+      "path": "LocalCertification/Asymptotic/PhaseScalar.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.PoissonBoundary",
+      "path": "LocalCertification/Asymptotic/PoissonBoundary.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.RationalNumerator",
+      "path": "LocalCertification/Asymptotic/RationalNumerator.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.RationalTail",
+      "path": "LocalCertification/Asymptotic/RationalTail.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.RootLimit",
+      "path": "LocalCertification/Asymptotic/RootLimit.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.RootMoments",
+      "path": "LocalCertification/Asymptotic/RootMoments.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.SharpRate",
+      "path": "LocalCertification/Asymptotic/SharpRate.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.SharpTheorem",
+      "path": "LocalCertification/Asymptotic/SharpTheorem.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.SharpUpper",
+      "path": "LocalCertification/Asymptotic/SharpUpper.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.UpperCandidate",
+      "path": "LocalCertification/Asymptotic/UpperCandidate.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.WeightKernel",
+      "path": "LocalCertification/Asymptotic/WeightKernel.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.WeightedSquares",
+      "path": "LocalCertification/Asymptotic/WeightedSquares.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.WienerDuality",
+      "path": "LocalCertification/Asymptotic/WienerDuality.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.WienerExtremum",
+      "path": "LocalCertification/Asymptotic/WienerExtremum.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.WienerInterpolationLower",
+      "path": "LocalCertification/Asymptotic/WienerInterpolationLower.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.WienerInterpolationUpper",
+      "path": "LocalCertification/Asymptotic/WienerInterpolationUpper.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.WienerInversion",
+      "path": "LocalCertification/Asymptotic/WienerInversion.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.WienerSeries",
+      "path": "LocalCertification/Asymptotic/WienerSeries.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Asymptotic.WienerSharpOrder",
+      "path": "LocalCertification/Asymptotic/WienerSharpOrder.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.CandidateDecision",
+      "path": "LocalCertification/Certificates/CandidateDecision.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.CanonicalCandidate",
+      "path": "LocalCertification/Certificates/CanonicalCandidate.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.CanonicalCertificate",
+      "path": "LocalCertification/Certificates/CanonicalCertificate.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.CanonicalCertificateConsumers",
+      "path": "LocalCertification/Certificates/CanonicalCertificateConsumers.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.CanonicalRawCheck",
+      "path": "LocalCertification/Certificates/CanonicalRawCheck.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.Consumers",
+      "path": "LocalCertification/Certificates/Consumers.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.DimensionStatements",
+      "path": "LocalCertification/Certificates/DimensionStatements.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.DimensionValues",
+      "path": "LocalCertification/Certificates/DimensionValues.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.Examples.Degree10",
+      "path": "LocalCertification/Certificates/Examples/Degree10.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.Examples.Degree2",
+      "path": "LocalCertification/Certificates/Examples/Degree2.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.Examples.Degree3",
+      "path": "LocalCertification/Certificates/Examples/Degree3.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.Examples.Degree4",
+      "path": "LocalCertification/Certificates/Examples/Degree4.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.Examples.Degree5",
+      "path": "LocalCertification/Certificates/Examples/Degree5.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.Examples.Degree6",
+      "path": "LocalCertification/Certificates/Examples/Degree6.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.Examples.Degree7",
+      "path": "LocalCertification/Certificates/Examples/Degree7.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.Examples.Degree8",
+      "path": "LocalCertification/Certificates/Examples/Degree8.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.Examples.Degree9",
+      "path": "LocalCertification/Certificates/Examples/Degree9.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.ExecutableTail",
+      "path": "LocalCertification/Certificates/ExecutableTail.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.Existence",
+      "path": "LocalCertification/Certificates/Existence.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.FairSearch",
+      "path": "LocalCertification/Certificates/FairSearch.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.PolynomialTail",
+      "path": "LocalCertification/Certificates/PolynomialTail.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.QuarticInterpolation",
+      "path": "LocalCertification/Certificates/QuarticInterpolation.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.QubitQuadratic",
+      "path": "LocalCertification/Certificates/QubitQuadratic.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.RationalDual",
+      "path": "LocalCertification/Certificates/RationalDual.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.RealLowDegree",
+      "path": "LocalCertification/Certificates/RealLowDegree.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.RealLowDegreeConsumers",
+      "path": "LocalCertification/Certificates/RealLowDegreeConsumers.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.SearchConsumers",
+      "path": "LocalCertification/Certificates/SearchConsumers.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.Soundness",
+      "path": "LocalCertification/Certificates/Soundness.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.StagedSearch",
+      "path": "LocalCertification/Certificates/StagedSearch.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.StagedSearchConsumers",
+      "path": "LocalCertification/Certificates/StagedSearchConsumers.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.TableValues",
+      "path": "LocalCertification/Certificates/TableValues.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Certificates.TailTermination",
+      "path": "LocalCertification/Certificates/TailTermination.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Comparisons.BoundedIIDTail",
+      "path": "LocalCertification/Comparisons/BoundedIIDTail.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Comparisons.GlobalProjectorBorn",
+      "path": "LocalCertification/Comparisons/GlobalProjectorBorn.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Comparisons.GlobalProjectorTest",
+      "path": "LocalCertification/Comparisons/GlobalProjectorTest.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.Alternation",
+      "path": "LocalCertification/Extremal/Alternation.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.BinomialMoments",
+      "path": "LocalCertification/Extremal/BinomialMoments.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.CompactConvexHull",
+      "path": "LocalCertification/Extremal/CompactConvexHull.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.ContactHull",
+      "path": "LocalCertification/Extremal/ContactHull.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.DegreeHierarchy",
+      "path": "LocalCertification/Extremal/DegreeHierarchy.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.DegreeZero",
+      "path": "LocalCertification/Extremal/DegreeZero.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.DimensionParameters",
+      "path": "LocalCertification/Extremal/DimensionParameters.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.DualMasses",
+      "path": "LocalCertification/Extremal/DualMasses.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.DualNormalization",
+      "path": "LocalCertification/Extremal/DualNormalization.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.ElementaryDecay",
+      "path": "LocalCertification/Extremal/ElementaryDecay.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.Envelope",
+      "path": "LocalCertification/Extremal/Envelope.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.EnvelopeUniqueness",
+      "path": "LocalCertification/Extremal/EnvelopeUniqueness.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.EvaluationMatrix",
+      "path": "LocalCertification/Extremal/EvaluationMatrix.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.ExactSupport",
+      "path": "LocalCertification/Extremal/ExactSupport.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.Extremizer",
+      "path": "LocalCertification/Extremal/Extremizer.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.FiniteDual",
+      "path": "LocalCertification/Extremal/FiniteDual.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.FirstResidual",
+      "path": "LocalCertification/Extremal/FirstResidual.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.Gamma",
+      "path": "LocalCertification/Extremal/Gamma.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.GeometricSeriesDecay",
+      "path": "LocalCertification/Extremal/GeometricSeriesDecay.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.GeometricSeriesDerivatives",
+      "path": "LocalCertification/Extremal/GeometricSeriesDerivatives.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.InfinityMatrix",
+      "path": "LocalCertification/Extremal/InfinityMatrix.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.InfinitySupport",
+      "path": "LocalCertification/Extremal/InfinitySupport.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.IntegerDual",
+      "path": "LocalCertification/Extremal/IntegerDual.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.Interpolation",
+      "path": "LocalCertification/Extremal/Interpolation.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.LagrangeSigns",
+      "path": "LocalCertification/Extremal/LagrangeSigns.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.OnePointModel",
+      "path": "LocalCertification/Extremal/OnePointModel.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.OrderedDual",
+      "path": "LocalCertification/Extremal/OrderedDual.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.OrderedMatrix",
+      "path": "LocalCertification/Extremal/OrderedMatrix.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.ParityEnvelopes",
+      "path": "LocalCertification/Extremal/ParityEnvelopes.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.RationalExtremizer",
+      "path": "LocalCertification/Extremal/RationalExtremizer.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.ResidualCancellation",
+      "path": "LocalCertification/Extremal/ResidualCancellation.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.ResidualMass",
+      "path": "LocalCertification/Extremal/ResidualMass.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.SupportCompression",
+      "path": "LocalCertification/Extremal/SupportCompression.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.Uniqueness",
+      "path": "LocalCertification/Extremal/Uniqueness.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Extremal.ZeroCount",
+      "path": "LocalCertification/Extremal/ZeroCount.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.BinaryKLMonotonicity",
+      "path": "LocalCertification/Information/BinaryKLMonotonicity.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.BinarySupport",
+      "path": "LocalCertification/Information/BinarySupport.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.ConfidenceRange",
+      "path": "LocalCertification/Information/ConfidenceRange.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.ContinuousConfidenceRatio",
+      "path": "LocalCertification/Information/ContinuousConfidenceRatio.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.DensityCoarsening",
+      "path": "LocalCertification/Information/DensityCoarsening.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.DensityInformation",
+      "path": "LocalCertification/Information/DensityInformation.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.ExponentialSupport",
+      "path": "LocalCertification/Information/ExponentialSupport.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.FiniteAtomLogIntegrability",
+      "path": "LocalCertification/Information/FiniteAtomLogIntegrability.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.FiniteAtoms",
+      "path": "LocalCertification/Information/FiniteAtoms.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.FiniteDomination",
+      "path": "LocalCertification/Information/FiniteDomination.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.FiniteHistoryKL",
+      "path": "LocalCertification/Information/FiniteHistoryKL.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.FiniteKL",
+      "path": "LocalCertification/Information/FiniteKL.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.FinitePrefixProductDensity",
+      "path": "LocalCertification/Information/FinitePrefixProductDensity.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.JointFiniteKL",
+      "path": "LocalCertification/Information/JointFiniteKL.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.KLVariational",
+      "path": "LocalCertification/Information/KLVariational.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.KLVariationalApproximation",
+      "path": "LocalCertification/Information/KLVariationalApproximation.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.KLVariationalConverse",
+      "path": "LocalCertification/Information/KLVariationalConverse.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.KernelHistory",
+      "path": "LocalCertification/Information/KernelHistory.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.KernelTerminalInformation",
+      "path": "LocalCertification/Information/KernelTerminalInformation.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.KernelVariational",
+      "path": "LocalCertification/Information/KernelVariational.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.ProductDensityChainRule",
+      "path": "LocalCertification/Information/ProductDensityChainRule.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.ReferenceL2",
+      "path": "LocalCertification/Information/ReferenceL2.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.SeedCountingReference",
+      "path": "LocalCertification/Information/SeedCountingReference.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.SingularFiniteKL",
+      "path": "LocalCertification/Information/SingularFiniteKL.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.StoppedKernel",
+      "path": "LocalCertification/Information/StoppedKernel.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Information.TestingLog",
+      "path": "LocalCertification/Information/TestingLog.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.LegacyPaper",
+      "path": "LocalCertification/LegacyPaper.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Paper",
+      "path": "LocalCertification/Paper.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Probability.BinaryKLLowerSemicontinuity",
+      "path": "LocalCertification/Probability/BinaryKLLowerSemicontinuity.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Probability.BlockAmplification",
+      "path": "LocalCertification/Probability/BlockAmplification.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.BehaviorTree",
+      "path": "LocalCertification/Protocol/BehaviorTree.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.BlockRecordGrouping",
+      "path": "LocalCertification/Protocol/BlockRecordGrouping.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.BornExecution",
+      "path": "LocalCertification/Protocol/BornExecution.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.BornTrajectory",
+      "path": "LocalCertification/Protocol/BornTrajectory.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.BudgetHierarchy",
+      "path": "LocalCertification/Protocol/BudgetHierarchy.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.BudgetLower",
+      "path": "LocalCertification/Protocol/BudgetLower.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.Budgets",
+      "path": "LocalCertification/Protocol/Budgets.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.CalibratedTesting",
+      "path": "LocalCertification/Protocol/CalibratedTesting.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.CanonicalProtocol",
+      "path": "LocalCertification/Protocol/CanonicalProtocol.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.CardinalityAchievability",
+      "path": "LocalCertification/Protocol/CardinalityAchievability.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.CompleteMUBAchievability",
+      "path": "LocalCertification/Protocol/CompleteMUBAchievability.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.CompleteMUBAchievabilityConsumers",
+      "path": "LocalCertification/Protocol/CompleteMUBAchievabilityConsumers.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.CompleteRecordLaw",
+      "path": "LocalCertification/Protocol/CompleteRecordLaw.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.ConditionalBorn",
+      "path": "LocalCertification/Protocol/ConditionalBorn.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.ConfidenceConstantLower",
+      "path": "LocalCertification/Protocol/ConfidenceConstantLower.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.ConfidenceExponentialLower",
+      "path": "LocalCertification/Protocol/ConfidenceExponentialLower.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.ConfidenceHierarchy",
+      "path": "LocalCertification/Protocol/ConfidenceHierarchy.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.ConsistentHistory",
+      "path": "LocalCertification/Protocol/ConsistentHistory.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.ConstantLowerBound",
+      "path": "LocalCertification/Protocol/ConstantLowerBound.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.CoordinateResampling",
+      "path": "LocalCertification/Protocol/CoordinateResampling.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.Executor",
+      "path": "LocalCertification/Protocol/Executor.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.ExponentialHierarchy",
+      "path": "LocalCertification/Protocol/ExponentialHierarchy.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.ExponentialLowerBound",
+      "path": "LocalCertification/Protocol/ExponentialLowerBound.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.ExponentialUpperBound",
+      "path": "LocalCertification/Protocol/ExponentialUpperBound.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.FixedBlockBudgets",
+      "path": "LocalCertification/Protocol/FixedBlockBudgets.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.FixedBlockConfidence",
+      "path": "LocalCertification/Protocol/FixedBlockConfidence.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.FixedBlockConsequences",
+      "path": "LocalCertification/Protocol/FixedBlockConsequences.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.FixedBlockConsumers",
+      "path": "LocalCertification/Protocol/FixedBlockConsumers.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.FixedBlockHierarchy",
+      "path": "LocalCertification/Protocol/FixedBlockHierarchy.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.FixedBlockLogCriterion",
+      "path": "LocalCertification/Protocol/FixedBlockLogCriterion.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.FixedBlockProtocol",
+      "path": "LocalCertification/Protocol/FixedBlockProtocol.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.FixedBornProtocol",
+      "path": "LocalCertification/Protocol/FixedBornProtocol.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.FixedErrorHierarchy",
+      "path": "LocalCertification/Protocol/FixedErrorHierarchy.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.FixedHorizon",
+      "path": "LocalCertification/Protocol/FixedHorizon.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.FixedSamplingLaw",
+      "path": "LocalCertification/Protocol/FixedSamplingLaw.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.FixedScoreAchievability",
+      "path": "LocalCertification/Protocol/FixedScoreAchievability.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.FixedScoreAchievabilityCanonical",
+      "path": "LocalCertification/Protocol/FixedScoreAchievabilityCanonical.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.FixedScoreAchievabilityConsumers",
+      "path": "LocalCertification/Protocol/FixedScoreAchievabilityConsumers.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.FixedScoreAchievabilityInstances",
+      "path": "LocalCertification/Protocol/FixedScoreAchievabilityInstances.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.FixedWordPrefix",
+      "path": "LocalCertification/Protocol/FixedWordPrefix.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.FullRecord",
+      "path": "LocalCertification/Protocol/FullRecord.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.HaarAchievability",
+      "path": "LocalCertification/Protocol/HaarAchievability.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.ImmediateStop",
+      "path": "LocalCertification/Protocol/ImmediateStop.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.IndependentRecords",
+      "path": "LocalCertification/Protocol/IndependentRecords.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.LegalFiltration",
+      "path": "LocalCertification/Protocol/LegalFiltration.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.LegalPaths",
+      "path": "LocalCertification/Protocol/LegalPaths.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.LegalStopping",
+      "path": "LocalCertification/Protocol/LegalStopping.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.LinearAchievability",
+      "path": "LocalCertification/Protocol/LinearAchievability.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.LogicalMeasurability",
+      "path": "LocalCertification/Protocol/LogicalMeasurability.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.LogicalRun",
+      "path": "LocalCertification/Protocol/LogicalRun.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MajorityBornProtocol",
+      "path": "LocalCertification/Protocol/MajorityBornProtocol.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableBudgetHierarchy",
+      "path": "LocalCertification/Protocol/MeasurableBudgetHierarchy.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableCalibratedBudget",
+      "path": "LocalCertification/Protocol/MeasurableCalibratedBudget.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableConstantLowerBound",
+      "path": "LocalCertification/Protocol/MeasurableConstantLowerBound.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableExecution",
+      "path": "LocalCertification/Protocol/MeasurableExecution.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableExecutionBasis",
+      "path": "LocalCertification/Protocol/MeasurableExecutionBasis.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableExecutionBorn",
+      "path": "LocalCertification/Protocol/MeasurableExecutionBorn.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableExecutionBudgets",
+      "path": "LocalCertification/Protocol/MeasurableExecutionBudgets.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableExecutionFiltration",
+      "path": "LocalCertification/Protocol/MeasurableExecutionFiltration.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableExecutionInformation",
+      "path": "LocalCertification/Protocol/MeasurableExecutionInformation.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableExecutionLegacy",
+      "path": "LocalCertification/Protocol/MeasurableExecutionLegacy.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableExecutionLegality",
+      "path": "LocalCertification/Protocol/MeasurableExecutionLegality.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableExecutionOriginalBudgets",
+      "path": "LocalCertification/Protocol/MeasurableExecutionOriginalBudgets.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableExecutionProduct",
+      "path": "LocalCertification/Protocol/MeasurableExecutionProduct.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableExecutionProductTransport",
+      "path": "LocalCertification/Protocol/MeasurableExecutionProductTransport.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableExecutionRules",
+      "path": "LocalCertification/Protocol/MeasurableExecutionRules.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableExecutionStopping",
+      "path": "LocalCertification/Protocol/MeasurableExecutionStopping.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableExecutionTransport",
+      "path": "LocalCertification/Protocol/MeasurableExecutionTransport.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableExecutionUniqueness",
+      "path": "LocalCertification/Protocol/MeasurableExecutionUniqueness.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableExecutionUniverse",
+      "path": "LocalCertification/Protocol/MeasurableExecutionUniverse.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableFixedBlockBudgets",
+      "path": "LocalCertification/Protocol/MeasurableFixedBlockBudgets.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableFixedBlockHierarchy",
+      "path": "LocalCertification/Protocol/MeasurableFixedBlockHierarchy.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableFixedBlockOriginal",
+      "path": "LocalCertification/Protocol/MeasurableFixedBlockOriginal.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableFixedBlockProtocol",
+      "path": "LocalCertification/Protocol/MeasurableFixedBlockProtocol.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableHaarHierarchy",
+      "path": "LocalCertification/Protocol/MeasurableHaarHierarchy.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableHistoryBudgets",
+      "path": "LocalCertification/Protocol/MeasurableHistoryBudgets.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableHistoryEmpty",
+      "path": "LocalCertification/Protocol/MeasurableHistoryEmpty.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableHistoryEncoding",
+      "path": "LocalCertification/Protocol/MeasurableHistoryEncoding.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableHistoryExtension",
+      "path": "LocalCertification/Protocol/MeasurableHistoryExtension.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableHistoryLive",
+      "path": "LocalCertification/Protocol/MeasurableHistoryLive.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableHistoryOfSetting",
+      "path": "LocalCertification/Protocol/MeasurableHistoryOfSetting.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableHistoryProduct",
+      "path": "LocalCertification/Protocol/MeasurableHistoryProduct.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableNearCriticalHierarchy",
+      "path": "LocalCertification/Protocol/MeasurableNearCriticalHierarchy.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurablePowerLowerBound",
+      "path": "LocalCertification/Protocol/MeasurablePowerLowerBound.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableProductLowerBound",
+      "path": "LocalCertification/Protocol/MeasurableProductLowerBound.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.MeasurableProductUpper",
+      "path": "LocalCertification/Protocol/MeasurableProductUpper.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.NearCriticalBudgetRate",
+      "path": "LocalCertification/Protocol/NearCriticalBudgetRate.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.NearCriticalNeighborhood",
+      "path": "LocalCertification/Protocol/NearCriticalNeighborhood.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.NearCriticalProductAssembly",
+      "path": "LocalCertification/Protocol/NearCriticalProductAssembly.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.NearCriticalProductLower",
+      "path": "LocalCertification/Protocol/NearCriticalProductLower.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.NearCriticalProductUpper",
+      "path": "LocalCertification/Protocol/NearCriticalProductUpper.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.NearCriticalUpper",
+      "path": "LocalCertification/Protocol/NearCriticalUpper.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.NearCriticalZeroProductLower",
+      "path": "LocalCertification/Protocol/NearCriticalZeroProductLower.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.PauliAchievability",
+      "path": "LocalCertification/Protocol/PauliAchievability.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.PowerLowerBound",
+      "path": "LocalCertification/Protocol/PowerLowerBound.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.ProductDensityCalibratedTesting",
+      "path": "LocalCertification/Protocol/ProductDensityCalibratedTesting.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.ProductDensityConfidenceEvent",
+      "path": "LocalCertification/Protocol/ProductDensityConfidenceEvent.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.ProductDensityTerminalInformation",
+      "path": "LocalCertification/Protocol/ProductDensityTerminalInformation.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.ProductDensityTestingScale",
+      "path": "LocalCertification/Protocol/ProductDensityTestingScale.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.PublicRecordTransition",
+      "path": "LocalCertification/Protocol/PublicRecordTransition.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.QuantitativeFixedScore",
+      "path": "LocalCertification/Protocol/QuantitativeFixedScore.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.QuantitativeReadoutEnsembles",
+      "path": "LocalCertification/Protocol/QuantitativeReadoutEnsembles.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.QubitQuartic",
+      "path": "LocalCertification/Protocol/QubitQuartic.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.RadialAchievability",
+      "path": "LocalCertification/Protocol/RadialAchievability.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.RawLawExt",
+      "path": "LocalCertification/Protocol/RawLawExt.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.RuleFactorization",
+      "path": "LocalCertification/Protocol/RuleFactorization.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.Rules",
+      "path": "LocalCertification/Protocol/Rules.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.SameConfidenceEvent",
+      "path": "LocalCertification/Protocol/SameConfidenceEvent.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.ScoreBudgetUpper",
+      "path": "LocalCertification/Protocol/ScoreBudgetUpper.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.ScoreGap",
+      "path": "LocalCertification/Protocol/ScoreGap.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.SeedTransport",
+      "path": "LocalCertification/Protocol/SeedTransport.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.SphereHierarchy",
+      "path": "LocalCertification/Protocol/SphereHierarchy.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.StoppingTime",
+      "path": "LocalCertification/Protocol/StoppingTime.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.TerminalEvents",
+      "path": "LocalCertification/Protocol/TerminalEvents.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.TerminalInformation",
+      "path": "LocalCertification/Protocol/TerminalInformation.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.TestingScaleLower",
+      "path": "LocalCertification/Protocol/TestingScaleLower.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.Trajectory",
+      "path": "LocalCertification/Protocol/Trajectory.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.TrajectoryCost",
+      "path": "LocalCertification/Protocol/TrajectoryCost.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.TrajectoryEncoding",
+      "path": "LocalCertification/Protocol/TrajectoryEncoding.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.TrajectoryExecution",
+      "path": "LocalCertification/Protocol/TrajectoryExecution.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.TreeBornPrefix",
+      "path": "LocalCertification/Protocol/TreeBornPrefix.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.TreeExecution",
+      "path": "LocalCertification/Protocol/TreeExecution.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.TreeFullRecord",
+      "path": "LocalCertification/Protocol/TreeFullRecord.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.TreeLaw",
+      "path": "LocalCertification/Protocol/TreeLaw.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.UniformConfidenceHierarchy",
+      "path": "LocalCertification/Protocol/UniformConfidenceHierarchy.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.UniformFixedBlockConfidence",
+      "path": "LocalCertification/Protocol/UniformFixedBlockConfidence.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.UniformNearCriticalHierarchy",
+      "path": "LocalCertification/Protocol/UniformNearCriticalHierarchy.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.UniformNearCriticalLower",
+      "path": "LocalCertification/Protocol/UniformNearCriticalLower.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Protocol.UpperBound",
+      "path": "LocalCertification/Protocol/UpperBound.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.BinaryStateMixture",
+      "path": "LocalCertification/Quantum/BinaryStateMixture.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.BornKernel",
+      "path": "LocalCertification/Quantum/BornKernel.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.BornMeasure",
+      "path": "LocalCertification/Quantum/BornMeasure.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.Boundary",
+      "path": "LocalCertification/Quantum/Boundary.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.CalibratedDistance",
+      "path": "LocalCertification/Quantum/CalibratedDistance.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.CalibratedInformation",
+      "path": "LocalCertification/Quantum/CalibratedInformation.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.Calibration",
+      "path": "LocalCertification/Quantum/Calibration.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.CalibrationBase",
+      "path": "LocalCertification/Quantum/CalibrationBase.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.CalibrationEvent",
+      "path": "LocalCertification/Quantum/CalibrationEvent.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.CalibrationFloor",
+      "path": "LocalCertification/Quantum/CalibrationFloor.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.CommonHaarEvent",
+      "path": "LocalCertification/Quantum/CommonHaarEvent.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.CompactTargetTransfer",
+      "path": "LocalCertification/Quantum/CompactTargetTransfer.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.CompleteBornRecord",
+      "path": "LocalCertification/Quantum/CompleteBornRecord.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.CompleteMUBReadout",
+      "path": "LocalCertification/Quantum/CompleteMUBReadout.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.CompleteReadoutLoewner",
+      "path": "LocalCertification/Quantum/CompleteReadoutLoewner.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.CompleteReadoutLoewnerConsumers",
+      "path": "LocalCertification/Quantum/CompleteReadoutLoewnerConsumers.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.ConstantHardPair",
+      "path": "LocalCertification/Quantum/ConstantHardPair.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.DegreeZeroState",
+      "path": "LocalCertification/Quantum/DegreeZeroState.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.DualKernelOrder",
+      "path": "LocalCertification/Quantum/DualKernelOrder.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.DualReadout",
+      "path": "LocalCertification/Quantum/DualReadout.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.DualStates",
+      "path": "LocalCertification/Quantum/DualStates.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.ExponentialCalibrationScale",
+      "path": "LocalCertification/Quantum/ExponentialCalibrationScale.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.ExponentialHardStates",
+      "path": "LocalCertification/Quantum/ExponentialHardStates.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.FiniteBornInformation",
+      "path": "LocalCertification/Quantum/FiniteBornInformation.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.FiniteWeightBounds",
+      "path": "LocalCertification/Quantum/FiniteWeightBounds.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.FixedBlockIndex",
+      "path": "LocalCertification/Quantum/FixedBlockIndex.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.FixedBlockMeasurement",
+      "path": "LocalCertification/Quantum/FixedBlockMeasurement.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.FrameRadius",
+      "path": "LocalCertification/Quantum/FrameRadius.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.GaussianMoments",
+      "path": "LocalCertification/Quantum/GaussianMoments.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.HaarMeasurement",
+      "path": "LocalCertification/Quantum/HaarMeasurement.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.HaarProductBasis",
+      "path": "LocalCertification/Quantum/HaarProductBasis.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.HaarShellControl",
+      "path": "LocalCertification/Quantum/HaarShellControl.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.HaarWeylOverlap",
+      "path": "LocalCertification/Quantum/HaarWeylOverlap.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.HardStateInformation",
+      "path": "LocalCertification/Quantum/HardStateInformation.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.IsometryEnvelopes",
+      "path": "LocalCertification/Quantum/IsometryEnvelopes.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.LinearWeylOrbit",
+      "path": "LocalCertification/Quantum/LinearWeylOrbit.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurableConstantHardPair",
+      "path": "LocalCertification/Quantum/MeasurableConstantHardPair.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurableDualInformation",
+      "path": "LocalCertification/Quantum/MeasurableDualInformation.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurableDualResidual",
+      "path": "LocalCertification/Quantum/MeasurableDualResidual.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurableEigenbasisSlots",
+      "path": "LocalCertification/Quantum/MeasurableEigenbasisSlots.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurableEigenvalues",
+      "path": "LocalCertification/Quantum/MeasurableEigenvalues.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurableExponentialHardStates",
+      "path": "LocalCertification/Quantum/MeasurableExponentialHardStates.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurableGramSchmidt",
+      "path": "LocalCertification/Quantum/MeasurableGramSchmidt.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurableHardStateEvent",
+      "path": "LocalCertification/Quantum/MeasurableHardStateEvent.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurableNearCriticalEvent",
+      "path": "LocalCertification/Quantum/MeasurableNearCriticalEvent.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVM",
+      "path": "LocalCertification/Quantum/MeasurablePOVM.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMBasis",
+      "path": "LocalCertification/Quantum/MeasurablePOVMBasis.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMCalibration",
+      "path": "LocalCertification/Quantum/MeasurablePOVMCalibration.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMCoarsening",
+      "path": "LocalCertification/Quantum/MeasurablePOVMCoarsening.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMDensity",
+      "path": "LocalCertification/Quantum/MeasurablePOVMDensity.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMFinite",
+      "path": "LocalCertification/Quantum/MeasurablePOVMFinite.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMFrame",
+      "path": "LocalCertification/Quantum/MeasurablePOVMFrame.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMFrameCanonical",
+      "path": "LocalCertification/Quantum/MeasurablePOVMFrameCanonical.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMFrameScore",
+      "path": "LocalCertification/Quantum/MeasurablePOVMFrameScore.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMInformation",
+      "path": "LocalCertification/Quantum/MeasurablePOVMInformation.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMKernel",
+      "path": "LocalCertification/Quantum/MeasurablePOVMKernel.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMMap",
+      "path": "LocalCertification/Quantum/MeasurablePOVMMap.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMProduct",
+      "path": "LocalCertification/Quantum/MeasurablePOVMProduct.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMProductFactors",
+      "path": "LocalCertification/Quantum/MeasurablePOVMProductFactors.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMProductInformation",
+      "path": "LocalCertification/Quantum/MeasurablePOVMProductInformation.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMProductKernel",
+      "path": "LocalCertification/Quantum/MeasurablePOVMProductKernel.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMProductMap",
+      "path": "LocalCertification/Quantum/MeasurablePOVMProductMap.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMProductRefinement",
+      "path": "LocalCertification/Quantum/MeasurablePOVMProductRefinement.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMRankOne",
+      "path": "LocalCertification/Quantum/MeasurablePOVMRankOne.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMReindex",
+      "path": "LocalCertification/Quantum/MeasurablePOVMReindex.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurablePOVMZeroScore",
+      "path": "LocalCertification/Quantum/MeasurablePOVMZeroScore.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurableProductCalibration",
+      "path": "LocalCertification/Quantum/MeasurableProductCalibration.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurableShellReadout",
+      "path": "LocalCertification/Quantum/MeasurableShellReadout.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.MeasurableSpectralBasis",
+      "path": "LocalCertification/Quantum/MeasurableSpectralBasis.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.NearCriticalAdjacentStates",
+      "path": "LocalCertification/Quantum/NearCriticalAdjacentStates.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.NearCriticalZeroRate",
+      "path": "LocalCertification/Quantum/NearCriticalZeroRate.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.NearCriticalZeroStates",
+      "path": "LocalCertification/Quantum/NearCriticalZeroStates.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.OrderedEigenprojector",
+      "path": "LocalCertification/Quantum/OrderedEigenprojector.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.PauliMeasurement",
+      "path": "LocalCertification/Quantum/PauliMeasurement.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.PauliProductMeasurement",
+      "path": "LocalCertification/Quantum/PauliProductMeasurement.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.ProductMeasurement",
+      "path": "LocalCertification/Quantum/ProductMeasurement.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.QubitPhaseConsumers",
+      "path": "LocalCertification/Quantum/QubitPhaseConsumers.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.QubitWeylPhase",
+      "path": "LocalCertification/Quantum/QubitWeylPhase.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.RadialPolynomial",
+      "path": "LocalCertification/Quantum/RadialPolynomial.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.RadialWeylOrbit",
+      "path": "LocalCertification/Quantum/RadialWeylOrbit.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.RadialWeylScore",
+      "path": "LocalCertification/Quantum/RadialWeylScore.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.ReadoutScoreMoments",
+      "path": "LocalCertification/Quantum/ReadoutScoreMoments.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.ShellReadout",
+      "path": "LocalCertification/Quantum/ShellReadout.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.ShellReadoutExpansion",
+      "path": "LocalCertification/Quantum/ShellReadoutExpansion.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.ShellReadoutLocal",
+      "path": "LocalCertification/Quantum/ShellReadoutLocal.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.ShellReadoutNormalization",
+      "path": "LocalCertification/Quantum/ShellReadoutNormalization.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.SpectralScoreBounds",
+      "path": "LocalCertification/Quantum/SpectralScoreBounds.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.StateMixture",
+      "path": "LocalCertification/Quantum/StateMixture.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.StateTraceBounds",
+      "path": "LocalCertification/Quantum/StateTraceBounds.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.TensorMatrix",
+      "path": "LocalCertification/Quantum/TensorMatrix.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.UniformCalibrationEvent",
+      "path": "LocalCertification/Quantum/UniformCalibrationEvent.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.UniformProductBasis",
+      "path": "LocalCertification/Quantum/UniformProductBasis.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.Weyl",
+      "path": "LocalCertification/Quantum/Weyl.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.WeylFin",
+      "path": "LocalCertification/Quantum/WeylFin.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.WeylGaussianChaos",
+      "path": "LocalCertification/Quantum/WeylGaussianChaos.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.WeylOrbit",
+      "path": "LocalCertification/Quantum/WeylOrbit.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.WeylOrbitProjection",
+      "path": "LocalCertification/Quantum/WeylOrbitProjection.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.WeylShellState",
+      "path": "LocalCertification/Quantum/WeylShellState.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.WeylSupport",
+      "path": "LocalCertification/Quantum/WeylSupport.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.WeylTensor",
+      "path": "LocalCertification/Quantum/WeylTensor.lean",
+      "project": "main"
+    },
+    {
+      "module": "LocalCertification.Quantum.WeylWeightEstimates",
+      "path": "LocalCertification/Quantum/WeylWeightEstimates.lean",
+      "project": "main"
+    },
+    {
+      "module": "MarkovSemigroups.Abstract.DirichletForm",
+      "path": "support/gaussian/MarkovSemigroups/Abstract/DirichletForm.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "MarkovSemigroups.Abstract.GrossODE",
+      "path": "support/gaussian/MarkovSemigroups/Abstract/GrossODE.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "MarkovSemigroups.Abstract.Hypercontractivity",
+      "path": "support/gaussian/MarkovSemigroups/Abstract/Hypercontractivity.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "MarkovSemigroups.Diffusion.CarreDuChamp",
+      "path": "support/gaussian/MarkovSemigroups/Diffusion/CarreDuChamp.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "MarkovSemigroups.Diffusion.StroockVaropoulos",
+      "path": "support/gaussian/MarkovSemigroups/Diffusion/StroockVaropoulos.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "MarkovSemigroups.General.OUEntropyDecomposition",
+      "path": "support/gaussian/MarkovSemigroups/General/OUEntropyDecomposition.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "MarkovSemigroups.Instances.WorkInProgress.Euclidean",
+      "path": "support/gaussian/MarkovSemigroups/Instances/WorkInProgress/Euclidean.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "MarkovSemigroups.Instances.WorkInProgress.EuclideanEntropyDecay",
+      "path": "support/gaussian/MarkovSemigroups/Instances/WorkInProgress/EuclideanEntropyDecay.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "MarkovSemigroups.Instances.WorkInProgress.EuclideanFin",
+      "path": "support/gaussian/MarkovSemigroups/Instances/WorkInProgress/EuclideanFin.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "MarkovSemigroups.Instances.WorkInProgress.EuclideanFinBE",
+      "path": "support/gaussian/MarkovSemigroups/Instances/WorkInProgress/EuclideanFinBE.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "MarkovSemigroups.Instances.WorkInProgress.EuclideanFinLp",
+      "path": "support/gaussian/MarkovSemigroups/Instances/WorkInProgress/EuclideanFinLp.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "MarkovSemigroups.Instances.WorkInProgress.EuclideanGenerator",
+      "path": "support/gaussian/MarkovSemigroups/Instances/WorkInProgress/EuclideanGenerator.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "MarkovSemigroups.Instances.WorkInProgress.EuclideanGeneratorLimit",
+      "path": "support/gaussian/MarkovSemigroups/Instances/WorkInProgress/EuclideanGeneratorLimit.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "MarkovSemigroups.Instances.WorkInProgress.EuclideanGeneratorLp",
+      "path": "support/gaussian/MarkovSemigroups/Instances/WorkInProgress/EuclideanGeneratorLp.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "MarkovSemigroups.Instances.WorkInProgress.EuclideanHermite",
+      "path": "support/gaussian/MarkovSemigroups/Instances/WorkInProgress/EuclideanHermite.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "MarkovSemigroups.Instances.WorkInProgress.EuclideanHypercontractive",
+      "path": "support/gaussian/MarkovSemigroups/Instances/WorkInProgress/EuclideanHypercontractive.lean",
+      "project": "adapter"
+    },
+    {
+      "module": "MarkovSemigroups.Instances.WorkInProgress.EuclideanStein",
+      "path": "support/gaussian/MarkovSemigroups/Instances/WorkInProgress/EuclideanStein.lean",
+      "project": "adapter"
+    }
+  ]
+}

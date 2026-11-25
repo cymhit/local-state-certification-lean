@@ -1,0 +1,9 @@
+.lake/
+*.olean
+*.ilean
+*.olean.private
+*.olean.server
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
